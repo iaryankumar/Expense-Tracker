@@ -35,7 +35,7 @@ setData(copyArr)
           
         {  
           data.map((ele,i)=>{
-            return <div key={i} className='h-max w-max bg-[#f7f7f7] rounded-2xl flex items-center gap-2 py-1.5 sm:px-5 px-2'>
+            return <div key={i} className='h-max w-max  md:px-2 px-6 bg-[#f7f7f7] rounded-2xl flex items-center gap-2 py-1.5 sm:px-5 px-2'>
             <div className='h-[80px] w-[50px] bg-[#181818] rounded-2xl flex flex-col items-center justify-center  text-white'>
               <h1 className='text-[18px] font-extrabold'>{ele.expenseDate}</h1>
               <h1 className='text-[15px]'>{ele.expenseMonth}</h1>

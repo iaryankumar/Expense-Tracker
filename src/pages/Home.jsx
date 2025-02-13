@@ -27,7 +27,7 @@ const Home = () => {
                 </div>
                 
             </nav>
-            <div className='md:h-[89.5vh] h-max w-full bg-[#181818] ms:p-5 p-1'>
+            <div className='h-[89.5vh] w-full bg-[#181818] ms:p-5 p-1'>
 
                 <div className='h-[100%] w-full flex md:flex-row flex-col items-center md:-5 gap-1 text-white'>
                     <div className='h-full md:w-[70%] w-full md:ps-12 ps-8 py-5 flex flex-col gap-5 lg:pe-40 pe-0'>
